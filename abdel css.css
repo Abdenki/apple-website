@@ -1,0 +1,392 @@
+*{
+    margin: 0 !important;
+    padding:0 !important;
+}
+.header-1 {
+    align-items: center;
+    font-size: 16px;
+    width: 100%;
+    height:43px;
+    background:rgb(11,11,11);
+    z-index: 1;
+}
+.svg--logo{
+    color: inherit;
+}
+.header-1 li{
+    list-style: none;
+    font-size: 16px;
+}
+.header-1 a{
+    text-decoration: none;
+    color:whitesmoke ;
+}
+.unorder-1{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.unorder-1 > li {
+    text-align: center; 
+}
+
+
+.unorder-1 img{
+    width: 12px;
+    margin-right: 30px;
+}
+.li-2{
+    flex-grow: 0.7;
+} 
+.unorder-2, .unorder-3{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.unorder-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    gap: 30px;
+    color: inherit;
+}
+.unorder-3 img{
+    width: 12px;
+}
+.fa-magnifying-glass{
+    font-size: 12px;
+}
+
+@media(max-width:992px){
+    .unorder-1{
+        width: 100%;
+    }
+}
+.svg--logo{
+    width:12px;
+}
+/* this is image one */
+
+@media(max-width:767px){
+    .div{
+        background-image:url(./apple_images/ima.jpg)
+    }
+}
+.sect-1{
+    gap: 12px!important;
+}
+
+
+    .trr{
+        gap:12px;
+    }
+    .divo{
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+    .parag{
+        background: linear-gradient(to right, #3483c0, #c586e1, #c67352);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          display: inline-block;
+          font-size: 16px;
+    }
+   
+.abdel{
+    width:99%;
+}
+@media(max-width:991px){
+    .abdel{
+        width: 100%;
+    }
+}
+.ipad-air img{
+    width:144px;
+
+}
+.ipad-gradient{
+    background: linear-gradient(to right, #3483c0, #c586e1, #c67352);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          display: inline-block;
+          font-size: 16px;
+}
+
+.yues{
+    width:98%;
+}
+.double--wrapper{
+    width:98%;
+}
+@media(max-width:991px){
+    .double--wrapper{
+        width: 100%;
+    }
+}
+@media(max-width:991px){
+    .yues{
+        width: 100%;
+    }
+}
+.shorts li{
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+.shorts a{
+    text-decoration: none;
+    color: inherit;
+}
+.shorts a:hover{
+    text-decoration: underline !important;
+}
+.shorts h4{
+    font-weight: 600;
+    display: block;
+    margin-top: 10px;
+    position: relative;
+}
+.fa-angle-down{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+@media(max-width:767px){
+    .div-2{
+        background-image:url(./apple_images/ima1.jpg)
+    }
+}
+@media(max-width:767px){
+    .div-2{
+        background-image:url(./apple_images/ima1.jpg)
+    }
+}
+.your{
+    background-image: url(./apple_images/favicon_io/es.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+.life{
+    background-image: url(./apple_images/favicon_io/es1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    color: black;
+}
+.one{
+    background-image: url(./apple_images/favicon_io/watch\ 22.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+@media(max-width:767px){
+    .div-2{
+        background-image:url(./apple_images/ima1.jpg)
+    }
+}
+.div{
+    background-image: url(./apple_images/image\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:70vh;
+    display: flex;
+    align-content: end;
+    justify-content: center;
+}
+@media(max-width:767px){
+    .div{
+        background-image:url(./apple_images/favicon_io/ima.jpg)
+    }
+}
+.div-2{
+    background-image: url(./apple_images/favicon_io/image\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:70vh;
+    display: flex;
+    align-content: end;
+    justify-content: center;
+}
+@media(max-width:767px){
+    .div-2{
+        background-image:url(./apple_images/favicon_io/ima1.jpg)
+    }
+}
+.div-3{
+    background-image: url(./apple_images/favicon_io/ipad.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:70vh;
+    display: flex;
+    align-content: end;
+    justify-content: center;
+    position: relative;
+}
+@media(max-width:767px){
+    .div-2{
+        background-image:url(./apple_images/favicon_io/ima2.jpg)
+    }
+}
+.any {
+    background-image: url(./apple_images/favicon_io/watch\ \(1\).jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 70vh;
+position: relative;
+}
+@media(max-width:767px){
+.div-e{
+    background-image:url(./apple_images/ima3.jpg)
+}
+}
+.never{
+background-image: url(./apple_images/favicon_io/watch\ \(1\).jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 70vh;
+}
+@media(max-width:768px){
+.never{
+    background-image: url(./apple_images/small.jpg);
+}
+}
+
+.trust{
+background-image: url(./apple_images/favicon_io/watch\ 22.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 70vh;
+}
+    @media(max-width:768px){
+    .trust{
+        background-image: url(./apple_images/favicon_io/we.jpg);
+    }
+    }
+.any{
+    background-image: url(./apple_images/favicon_io/ha.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width:100%;
+}
+.one{
+    background-image: url(./apple_images/favicon_io/ha1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+
+@media(max-width:768px){
+    .trust{
+        background-image: url(./apple_images/favicon_io/we.jpg);
+    }
+    }
+.bnbn{
+    text-decoration: none;
+   color: black;
+}
+.brr h1{
+    font-size: 25px;
+}
+.list-unstyled{
+    margin-left:5px;
+}
+.mobile-menu-active {
+    position: fixed;
+    top: 50px; /* Adjust based on your header height */
+    left: 0;
+    right: 0;
+    background: black;
+    color: white;
+    z-index: 1000;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    animation: slideDown 0.3s ease-out;
+    flex-direction: column !important;
+}
+
+.mobile-menu-active li {
+    padding: 20px 0;
+    border-bottom: 1px solid transparent;
+    line-height: 55PX;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Ensure proper spacing */
+.header-1 {
+    background: black;
+    z-index: 1001;
+    padding: 15px 0;
+}
+
+
+
+
+/* Footer mobile dropdown styles */
+.shorts h4 {
+    cursor: pointer;
+    position: relative;
+    padding-right: 25px;
+}
+
+.shorts h4 .fa-angle-down,
+.shorts h4 .fa-angle-up {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+}
+
+.shorts ul.d-block {
+    padding: 10px 0;
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Adjust hr spacing */
+.shorts hr {
+    margin: 0.5rem 0;
+}
